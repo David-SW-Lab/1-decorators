@@ -1,0 +1,11 @@
+{
+  "name": "js",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "webpack": "^5.36.2"
+  },
+    "scripts": {
+      "build:tizen": "webpack --env.PLATFORM=tizen"
+    }
+}
